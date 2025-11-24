@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
-font-family: sans-serif;
+  font-family: sans-serif;
+  background-color: #ffffff; /* fundo branco padrão */
+  color: #1f2937; /* equivalente ao text-gray-800 */
+}
+
+/* Garantir que header/nav e footer não fiquem pretos */
+header, nav, footer {
+  background-color: #f9fafb; /* equivalente ao bg-gray-50 */
+  color: #1f2937; /* texto cinza escuro */
 }
