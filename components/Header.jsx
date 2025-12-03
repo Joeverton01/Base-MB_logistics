@@ -17,7 +17,7 @@ export default function Header() {
           <a href="#servicos" className="text-gray-700 hover:text-indigo-700">Serviços</a>
           <a href="#faq" className="text-gray-700 hover:text-indigo-700">FAQ</a>
           <a
-            href="#acesso"
+            href="/portal"
             className="rounded-md bg-indigo-700 px-3 py-2 font-medium text-white hover:bg-indigo-800"
           >
             Acesso

@@ -14,7 +14,7 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="#acesso"
+              href="/portal"
               className="rounded-md bg-white px-5 py-3 font-semibold text-indigo-800 hover:bg-indigo-100"
             >
               Acessar Portal
